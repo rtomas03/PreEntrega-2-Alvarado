@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CONVERTIDOR DE DIVISAS</title>
+
+</head>
+<body>
+    
+   <h1>convertidor divisas</h1>
+   <form class="formulario" > 
+    <p>Ingrese el monto que desea convertir</p> 
+    <input type="number" class="casilla" id="amount"/>
+    <select name="" id="currency_type" class="seleccionar">
+        <option value="dolar">Dolar</option>
+        <option value="euro">Euro</option>
+        <option value="real">Real</option>
+        <option value="yen">Yen</option>
+        <option value="libra">Libra</option>
+    </select>
+    <input type="button" value="cotizar" class="btn" onclick="currency_change()"> 
+    <p>Resultado</p>
+    <ul>
+       <h3>Dolar: $00.00</h3>
+       <h3>Euro: $00.00</h3>
+       <h3>Real: $00.00</h3>
+       <h3>Yen: $00.00</h3>
+       <h3>Libra: $00.00</h3>
+    </ul>
+   
+    </form>
+   
+
+    <script src="pre_2.js"></script>
+</body>
+</html>
